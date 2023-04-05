@@ -1,0 +1,56 @@
+/* Media query for mobile devices */
+@media(max-width:768px) {
+
+    #main_container > .form-container {
+    width: 100%;
+    height: 98vh;
+    margin: 25px 0px;
+   }
+   
+   h1 {
+    font-size: 1.2em;
+   }
+
+   span {
+    font-size: 13px;
+   }
+
+   .container {
+    display: block;
+    }
+
+    form {
+        padding: 0px 12px;
+    }
+
+    .form-group, label {
+        margin: 3px 0px;
+    }
+    
+    label {
+        font-size: 13px;
+    }
+
+    .form-group input, .form-group select, .form-group textarea {
+        margin-top: 2px;
+    }
+
+    .btn > input {
+        margin-top: 5px;
+    }
+}
+
+/* Media query for Tablet devices */
+@media(min-width:769px) and (max-width:1200px) {
+
+    .form-container {
+        width: 70%;
+        height: 72vh;
+        margin: 30px 0;
+    }
+
+    .btn > input {
+        margin-top: 5px;
+    }
+
+}

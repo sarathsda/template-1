@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template-1</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    <!-- main container starts here -->
+    <section id="main_container">
+        <div class="form-container">
+            <h1>Job Application <span>(Web)</span></h1>
+            <form id="myForm" method="post" autocomplete="off">
+                <div class="nameInfo container">
+                    <div class="form-group">
+                        <label for="fName">First Name</label>
+                        <input type="text" name="fName" id="fName" placeholder="Enter First Name...">
+                    </div>
+                    <div class="form-group">
+                        <label for="lName">Last Name</label>
+                        <input type="text" name="lName" id="lName" placeholder="Enter Last Name...">
+                    </div>
+                </div>
+                <div class="emailInfo container">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email...">
+                    </div>
+                    <div class="form-group">
+                        <label for="jobRole">Job Role</label>
+                        <select name="jobRole" id="jobRole">
+                            <option value="null">Select Job Role</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" cols="30" rows="3" placeholder="Enter Address"></textarea>
+                </div>
+                <div class="cityInfo container">
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" placeholder="Enter City Name...">
+                    </div>
+                    <div class="form-group">
+                        <label for="pinCode">Pincode</label>
+                        <input type="text" name="pinCode" id="pinCode" placeholder="Enter Pincode Name...">
+                    </div>
+                </div>
+                <div class="dateInfo container">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="file">Upload Your CV</label>
+                        <input type="file" name="file" id="file">
+                    </div>
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Apply Now">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- main container ends here -->
+
+
+</body>
+</html>
